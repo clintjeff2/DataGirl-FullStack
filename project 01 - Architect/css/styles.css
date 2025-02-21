@@ -1,0 +1,194 @@
+body {
+	margin: 0;
+}
+.section-landing {
+	width: 82%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.landing {
+	height: 86vh;
+	position: relative;
+}
+.landing img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.landing h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	color: white;
+	letter-spacing: 7px;
+	font-size: 40px;
+	font-weight: 300;
+	margin: 0;
+}
+
+.landing h1 span {
+	background-color: #00000082;
+	font-weight: bold;
+	padding: 8px;
+}
+
+.section-projects {
+	width: 82%;
+	margin: auto;
+}
+.section-projects h2 {
+	border-bottom: 2px solid #238df68f;
+	padding-bottom: 25px;
+}
+.project-house {
+	position: relative;
+	/* border: 2px solid red; */
+	height: 300px;
+	width: calc((100% - 45px) / 4);
+	float: left;
+	margin-bottom: 15px;
+}
+.project-house img {
+	width: 100%;
+	height: 100%;
+}
+.house-name {
+	position: absolute;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 10px;
+	font-size: 18px;
+	font-family: sans-serif;
+	top: 0;
+	left: 0;
+}
+.space {
+	margin-right: 15px;
+}
+.projects-container {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.section-about {
+	width: 82%;
+	margin: auto;
+}
+
+.section-about h2 {
+	border-bottom: 2px solid #238df68f;
+	padding-bottom: 25px;
+}
+.section-about p {
+	line-height: 1.7;
+}
+.contact-card {
+	width: 400px;
+	/* border: 2px solid red; */
+	font-family: sans-serif;
+	float: left;
+	width: calc((100% - 45px) / 4);
+}
+.contact-card:not(:last-child) {
+	margin-right: 15px;
+}
+
+.contact-card img {
+	width: 100%;
+}
+
+.contact-card h3 {
+	font-size: 26px;
+	margin: 0;
+	margin-top: 20px;
+}
+
+.contact-card h6 {
+	color: #808080;
+	font-weight: 100;
+	font-size: 20px;
+	margin: 0;
+	margin-top: 20px;
+}
+
+.contact-card button {
+	width: 100%;
+	padding: 10px;
+	font-family: sans-serif;
+	border: none;
+	transition: background 4s;
+}
+
+.contact-card button:hover {
+	background-color: grey;
+	color: #fff;
+	cursor: pointer;
+}
+.contact-card-container {
+	content: '';
+	clear: both;
+	display: table;
+	margin-top: 50px;
+}
+.section-contact {
+	width: 82%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.section-contact h2 {
+	border-bottom: 2px solid #238df68f;
+	padding-bottom: 25px;
+}
+.section-contact form input {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 6px;
+	margin: 6px;
+}
+.section-contact form input[type='submit'] {
+	width: 170px;
+	background-color: black;
+	color: white;
+	border: none;
+}
+
+.section-contact form input[type='submit']:hover {
+	background-color: #b9b6b6;
+	color: black;
+}
+.map {
+	height: 95vh;
+	border: 4px solid #238df68f;
+	width: 82%;
+	margin: auto;
+	margin-top: 50px;
+}
+.map img {
+	height: 100%;
+	width: 100%;
+}
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	padding: 30px;
+}
+
+nav {
+	padding: 15px;
+	border: 2px solid red;
+	content: '';
+	clear: both;
+	display: table;
+	width: 100%;
+}
+nav .logo {
+	float: left;
+}
+nav .container {
+	float: right;
+}
