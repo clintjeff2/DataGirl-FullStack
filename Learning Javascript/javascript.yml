@@ -1,0 +1,66 @@
+The Script Tag:
+We use the "script" tag to write javascript code
+e.g 
+<script>
+
+</script>
+
+Comments:
+Single line and Multi line comments
+- For Single line we use //
+- For Multi line we use /* code here */
+
+Variables:
+- Containers for storing values
+- Variable declaration and definitions
+- Declarations lets the browser know the variable exist
+- Definition lets the browser know what that variable stores
+- Can use var, let, const to declare and define variables
+
+OPERATORS: 
+
+Arithmetic Operators:
+Operator	Description
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+
+Assignment Operators:
+Operator Example	Same As
+=	        x = y	    x = y
++=	      x += y	  x = x + y
+-=	      x -= y	  x = x - y
+*=	      x *= y	  x = x * y
+/=	      x /= y	  x = x / y
+%=	      x %= y	  x = x % y
+**=	      x **= y	  x = x ** y
+
+Comparison Operators: 
+Operator	Description
+==	      equal to
+===	      equal value and equal type
+!=	      not equal
+!==	      not equal value or not equal type
+>	        greater than
+<	        less than
+>=	      greater than or equal to
+<=	      less than or equal to
+?	        ternary operator
+
+Logical Operators:
+Operator	Description
+&&	        logical and
+||	        logical or
+!	          logical not
+
+DATA TYPES:
+- Primitive Data types and Non-Primitive Data types
+- e.g of Primitive Data types (String, Number, Boolean);
+- e.g of Non-Primitive Data type(Object, Arrays, undefined)
+- Objects ---> They store data in key:value pairs
+- Arrays ----> 
