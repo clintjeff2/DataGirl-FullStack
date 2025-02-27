@@ -63,4 +63,22 @@ DATA TYPES:
 - e.g of Primitive Data types (String, Number, Boolean);
 - e.g of Non-Primitive Data type(Object, Arrays, undefined)
 - Objects ---> They store data in key:value pairs
-- Arrays ----> 
+- Arrays ----> They are used to store data of the same type.:
+	* Could be an array of objects 
+	* Could be an array of numbers
+	* Could be an array of strings etc.
+
+OBJECTS:
+- A car has properties like weight and color, and methods like start and stop
+- We can use objects to achieve the creation of a car model for instance.
+- Objects are written in key value pairs (key: "value")
+- Each key value pair is seperated from the next with the help of a comma ","
+- keys and values are seperated using the colon sign ":"
+- And finally, objects are enclosed in curly brackets "{}"
+- e.g of a table object is 
+let chair = {
+	color: 'brown',
+	height: 1,
+	weight: 50,
+	legs: 4,
+};
