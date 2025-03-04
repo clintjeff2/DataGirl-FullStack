@@ -322,6 +322,7 @@ console.log(sentence.join('__'));
 // }else{
 // 	//code
 // }
+/*
 let age = 55;
 let age2 = 10;
 let age3 = 3;
@@ -359,3 +360,130 @@ if (age > 60) {
 }else {
 	console.log('Continue Working');
 }
+*/
+
+//LOOPS
+
+//For Loops Syntax
+// for(definition; condition; counter){
+// 	//code
+// }
+
+// for (let i = 10; i <= 100; i += 1) {
+// 	console.log( i);
+// }
+// for(let j = 50; j > 0; j--){
+// 	console.log(j);
+// }
+
+// for (let k = 1; k < 100; k += 2) {
+// 	console.log(k);
+// }
+const fruits = [
+	'apple',
+	'orange',
+	'mango',
+	'plum',
+	'strawberries',
+	'Tangerine',
+];
+
+// for (let y = 0; y < fruits.length; y++) {
+// 	console.log(fruits[y]);
+// }
+
+// for (let j = 1; j <= 12; j++) {
+// 	// console.log(4 * j);
+// 	console.log('4 * ' + j + ' = ' + 4 * j);
+// }
+
+//FOR (of) LOOP
+//Syntax
+// for(variable of iterable){
+// 	//variable = declaration, iterable = array
+// 	//code
+// }
+
+// for(let x of fruits){
+// 	console.log(x);
+// }
+
+//WHILE LOOP
+//Syntax
+// while(condition){
+// 	//code
+// 	//counter
+// }
+
+// let x = 1;
+// while(x <= 10){
+// 	console.log(x);
+// 	x++;
+// }
+
+//COLLECTING USER INPUT WITH window objects
+/*
+let number = prompt('Enter a first number: ');
+console.log(number);
+let number2 = window.prompt('Enter a second number: ');
+console.log(number2);
+
+let answer = Number(number) + Number(number2);
+
+document.write('The sum of your numbers is: ' + answer);
+*/
+
+//ASSIGNMENT
+// let num1 = prompt("Enter a number, let's see if it is even or odd: ");
+// num1 = Number(num1);
+
+// if (num1 % 2 === 0) {
+// 	console.log('The number is Even');
+// } else {
+// 	console.log('The number is Odd');
+// }
+
+// console.log(num1);
+
+// let age = 15;
+// function checkAge(ageInput){
+// 	if(ageInput < 13){
+// 		return "Child";
+// 	}else if(ageInput >= 13 && ageInput <= 19){
+// 		return "Teenager";
+// 	}else {
+// 		return "Adult";
+// 	}
+// }
+// console.log(checkAge(23));
+// console.log(checkAge(age));
+// checkAge(71);
+// checkAge(20);
+// checkAge(22);
+// checkAge(17);
+
+function countVowels(value) {
+	let vowels = 'aeiouAEIOU';
+
+	//INTELLIGENCE
+
+	//value.length
+	let numberOfVowels = 0;
+	for (let i = 0; i < value.length; i++) {
+		if (vowels.includes(value[i])) {
+			numberOfVowels++;
+		}
+	}
+
+	// for (let character of value) {
+	// 	if (vowels.includes(character)) {
+	// 		numberOfVowels++;
+	// 	}
+	// }
+
+	return numberOfVowels;
+}
+
+// let counts = countVowels('JavaScript');
+// console.log('The number of vowels is: ' + counts);
+// console.log('school'.includes('oh'));
