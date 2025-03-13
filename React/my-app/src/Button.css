@@ -1,0 +1,11 @@
+.btn{
+  border: none;
+  background-color: #efa212;
+  color: #fdf6f6;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.primary{
+  background-color: #0e8f0e;
+}
