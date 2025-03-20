@@ -1,27 +1,15 @@
-import Button from './Button';
-import PrimaryButton from './ButtonPrimary';
+import ButtonCounter from './components/ButtonCounter';
+import ContactForm from './components/ContactForm';
+import StateExampe from './components/StateExample';
 
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<Button data="Login" />
-				<p>save to reload.</p>
-				<PrimaryButton />
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
-			</header>
-			<Button data="Logout" />
-
+			{/* <StateExampe /> */}
+			{/* <ButtonCounter /> */}
+			<ContactForm />
 		</div>
 	);
-
 }
 
 export default App;

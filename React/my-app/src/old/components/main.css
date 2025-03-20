@@ -1,0 +1,8 @@
+main{
+  background-color: #d3d3d3;
+  padding: 15px;
+  line-height: 1.7;
+}
+.nav-main{
+  display: flex;
+}
