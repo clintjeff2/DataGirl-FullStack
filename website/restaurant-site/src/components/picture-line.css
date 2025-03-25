@@ -1,0 +1,9 @@
+.picture-line{
+  display: flex;
+}
+
+.picture-line img{
+  width: 25%;
+  height: 120px;
+  object-fit: cover;
+}

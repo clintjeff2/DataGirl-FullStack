@@ -1,0 +1,55 @@
+.process {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #ebebeb;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.process .pics {
+	height: 400px;
+	width: 35%;
+	border: 2px solid dodgerblue;
+	position: relative;
+}
+
+.pics .img2 {
+	height: 100%;
+	width: 100%;
+}
+
+.pics .img1 {
+	position: absolute;
+	height: 350px;
+	width: 300px;
+	bottom: 0;
+	right: -70px;
+	/* transform: translateX(70px); */
+
+	box-shadow: 2px 3px 50px black;
+}
+
+.process-food {
+	width: 35%;
+}
+
+.process-food h2 {
+	font-size: 55px;
+	font-family: sans-serif;
+	color: #575454;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.process-food p {
+	color: gray;
+	text-align: justify;
+}
+
+.process-food button {
+	background-color: #ffa500;
+	color: #fff;
+	border: none;
+	padding: 15px;
+	text-transform: uppercase;
+}
