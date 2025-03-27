@@ -1,0 +1,75 @@
+header {
+	background-color: #1e90ff;
+	color: #fff;
+	font-size: 45px;
+	font-weight: bolder;
+	padding: 30px;
+	text-align: center;
+}
+form {
+	padding: 20px 10px;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	background-color: #faf5f5;
+}
+form input {
+	border-radius: 5px;
+	border: 1.5px solid #b9a8a8;
+	padding: 11px;
+	font-size: 20px;
+	width: 70%;
+	outline: 1.5px solid #b9a8a8;
+}
+form button {
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #1e90ff;
+	color: #fff;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	border-bottom: 1px solid #d2cfcf;
+	list-style: none;
+	padding: 14px;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+li button {
+	background-color: #ff0000;
+	color: #fff;
+	border: none;
+	padding: 6px 10px;
+	font-weight: bolder;
+	border-radius: 4px;
+}
+
+div button {
+	padding: 15px 25px;
+	color: #fff;
+	font-size: 20px;
+	border: none;
+  border-radius: 5px;
+}
+.done {
+	background-color: #008000;
+}
+.delete {
+	background-color: #ff0000;
+}
+.actions {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
