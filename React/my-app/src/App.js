@@ -1,15 +1,12 @@
-import AdvancedControlledForm from './components/AdvancedControlledForm';
-import ButtonCounter from './components/ButtonCounter';
-import ContactForm from './components/ContactForm';
-import StateExampe from './components/StateExample';
+import CareerForm from './components/CareerForm';
+import Profile from './components/Profile';
 
 function App() {
 	return (
 		<div className="App">
-			{/* <StateExampe /> */}
-			{/* <ButtonCounter /> */}
-			{/* <ContactForm /> */}
-			<AdvancedControlledForm />
+			{/* <AdvancedControlledForm /> */}
+			<CareerForm />
+			<Profile />
 		</div>
 	);
 }
